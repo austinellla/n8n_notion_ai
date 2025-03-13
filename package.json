@@ -1,0 +1,31 @@
+{
+  "name": "n8n_notion_ai",
+  "version": "0.1.0",
+  "description": "Integration tool connecting n8n workflow automation with Notion's database and AI capabilities",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "n8n",
+    "notion",
+    "ai",
+    "automation",
+    "workflow",
+    "integration"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.2.13",
+    "dotenv": "^16.3.1",
+    "n8n-workflow": "^1.17.0",
+    "openai": "^4.20.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
